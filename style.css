@@ -199,3 +199,15 @@ textarea{
     margin : 12px 0;
     padding : 8px 0;
 }
+
+css
+#main {
+    margin-top: 120px;        /* Space for the top header */
+    padding-bottom: 40px;     /* Space for the bottom header */
+    height: calc(100vh - 160px); /* Full height minus headers */
+    overflow-y: auto;         /* Make it scrollable if needed */
+}
+
+#content {
+    padding-bottom: 50px;     /* Extra space at the bottom */
+}
